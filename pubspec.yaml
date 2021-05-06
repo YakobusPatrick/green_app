@@ -1,0 +1,61 @@
+name: green_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.1.0
+  firebase_auth: ^1.1.2
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+     - assets/
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/Caveat-Regular.ttf
+        - asset: assets/Caveat-Medium.ttf
+          weight: 500
+        - asset: assets/Caveat-SemiBold.ttf
+          weight: 600
+        - asset: assets/Caveat-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/Inter-Thin.ttf
+          weight: 100
+        - asset: assets/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/Inter-Light.ttf
+          weight: 300
+        - asset: assets/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/Inter-Black.ttf
+          weight: 900
+    - family: Itim
+      fonts:
+        - asset: assets/Itim-Regular.ttf
+  uses-material-design: true
